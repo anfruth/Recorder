@@ -14,7 +14,6 @@
 		EA5298A61B5B11EF00F39565 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5298A41B5B11EF00F39565 /* LaunchScreen.xib */; };
 		EA5298B21B5B11EF00F39565 /* RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5298B11B5B11EF00F39565 /* RecorderTests.swift */; };
 		EAEEF63D1B64480800B89DBF /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEEF63C1B64480800B89DBF /* PlaySoundsViewController.swift */; };
-		EAEEF63F1B645CF900B89DBF /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = EAEEF63E1B645CF900B89DBF /* sounds */; };
 		EAEEF6411B65B43B00B89DBF /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEEF6401B65B43B00B89DBF /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		EA5298B01B5B11EF00F39565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5298B11B5B11EF00F39565 /* RecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderTests.swift; sourceTree = "<group>"; };
 		EAEEF63C1B64480800B89DBF /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		EAEEF63E1B645CF900B89DBF /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
 		EAEEF6401B65B43B00B89DBF /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +96,6 @@
 		EA5298991B5B11EF00F39565 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAEEF63E1B645CF900B89DBF /* sounds */,
 				EA52989A1B5B11EF00F39565 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -203,7 +200,6 @@
 			files = (
 				EA5298A11B5B11EF00F39565 /* Main.storyboard in Resources */,
 				EA5298A61B5B11EF00F39565 /* LaunchScreen.xib in Resources */,
-				EAEEF63F1B645CF900B89DBF /* sounds in Resources */,
 				EA5298A31B5B11EF00F39565 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
