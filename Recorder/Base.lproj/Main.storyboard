@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recording" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2m-y5-gsf">
-                                <rect key="frame" x="261" y="289" width="79" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2m-y5-gsf">
+                                <rect key="frame" x="246" y="289" width="108" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -44,22 +44,14 @@
                                     <action selector="recordAudio:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Ka-ry-abV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tap to Record" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFh-BQ-AZp">
-                                <rect key="frame" x="246" y="288" width="108" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.30203266214461633" green="0.41329391422954176" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="gFh-BQ-AZp" secondAttribute="centerY" id="3qF-jT-iqY"/>
                             <constraint firstAttribute="centerY" secondItem="N2m-y5-gsf" secondAttribute="centerY" id="50B-g0-Shs"/>
                             <constraint firstAttribute="centerX" secondItem="vTr-Ds-rDE" secondAttribute="centerX" id="A2h-ek-sda"/>
                             <constraint firstItem="6Cj-09-zBX" firstAttribute="top" secondItem="N2m-y5-gsf" secondAttribute="bottom" constant="44.5" id="JE0-Yk-KXj"/>
                             <constraint firstItem="N2m-y5-gsf" firstAttribute="top" secondItem="vTr-Ds-rDE" secondAttribute="bottom" constant="10" id="KUI-7I-w2i"/>
                             <constraint firstAttribute="centerX" secondItem="N2m-y5-gsf" secondAttribute="centerX" id="Kh2-vv-8wf"/>
-                            <constraint firstAttribute="centerX" secondItem="gFh-BQ-AZp" secondAttribute="centerX" id="P0v-e2-b13"/>
                             <constraint firstItem="vTr-Ds-rDE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="154" id="ZbI-Or-iTH"/>
                             <constraint firstItem="6Cj-09-zBX" firstAttribute="top" secondItem="N2m-y5-gsf" secondAttribute="bottom" constant="43.5" id="dEu-tp-fG1"/>
                             <constraint firstAttribute="centerX" secondItem="6Cj-09-zBX" secondAttribute="centerX" id="gZm-24-ACh"/>
@@ -78,7 +70,6 @@
                         <outlet property="recordButton" destination="vTr-Ds-rDE" id="j4l-Tz-kds"/>
                         <outlet property="recordingLabel" destination="N2m-y5-gsf" id="Mv7-W4-NAr"/>
                         <outlet property="stopButton" destination="6Cj-09-zBX" id="d2Z-au-KyZ"/>
-                        <outlet property="tapToRecordLabel" destination="gFh-BQ-AZp" id="Cmu-Sy-537"/>
                         <segue destination="gSF-KS-Pne" kind="show" identifier="stopRecording" id="YcZ-Gm-TUY"/>
                     </connections>
                 </viewController>
